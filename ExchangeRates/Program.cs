@@ -100,7 +100,7 @@ namespace ExchangeRates
             else//jak nie to pobiera
             {
                 var httpClient = new HttpClient();
-                string apiUrl = $"https://openexchangerates.org/api/historical/{date:yyyy-MM-dd}.json?app_id=f14c4f08d316469ba966b39193165986&base=USD";
+                string apiUrl = $"https://openexchangerates.org/api/historical/{date:yyyy-MM-dd}.json?app_id=YourApiID&base=USD";
 
                 try
                 {
